@@ -1,5 +1,17 @@
 # dnsparser
-A custom dns parser for HTTP on iOS 
+A custom dns parser for HTTP on iOS.
+
+##Notice
+The dns.plist is always need, don't remove it.
+
+###Feature
+* default dns（host-ip）table, which have a weight
+* parse host and cache the ip
+* manage host-ip cache
+
+
+todo：
+* I dont know now....Please give me some ideas.
 
 
 
@@ -29,6 +41,7 @@ A custom dns parser for HTTP on iOS
 
 
 ####Change the default DNS Plist
+A host will have more than one ip, and every ip has a weight.You can change The dns.plist and it will be copy to the document path.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
