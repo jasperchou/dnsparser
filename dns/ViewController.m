@@ -43,7 +43,6 @@
 //    [JPDNSParser ipAsynParseWithHost:@"wechat.iduobao.net" withComplete:^(NSString *ip) {
 //        NSLog(@"asyn ip:%@", ip);
 //    }];
-//    
-//    [JPDNSCache shareCache];
+
 }
 @end
