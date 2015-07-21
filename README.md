@@ -1,5 +1,5 @@
 # dnsparser
-A custom dns parser for HTTP on iOS.
+A custom dns parser for HTTP on iOS. http dns自解析，国内防火墙太丧心病狂，导致我dns解析有时候有问题。
 
 ##Notice
 The dns.plist is always need, don't remove it.
